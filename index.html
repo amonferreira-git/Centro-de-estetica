@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro de Estética Avanzada</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+</head>
+<body>
+
+    <!-- Menú de navegación -->
+    <header>
+        <div class="logo">Estética Avanzada</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#corporales">Corporales</a></li>
+                <li><a href="#faciales">Faciales</a></li>
+                <li><a href="#aparatologia">Aparatología</a></li>
+                <li><a href="sobrenosotros.html">Sobre Nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+            <div class="menu-icon">
+                <i class="fas fa-spa"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Sección: Tratamientos Corporales -->
+    <section id="corporales" data-aos="fade-up">
+        <h2>Tratamientos Corporales</h2>
+        <img src="img/Captura3.png" alt="Tratamientos Corporales">
+        <p>Descubre nuestros tratamientos corporales diseñados para esculpir y tonificar tu cuerpo.</p>
+    </section>
+
+    <!-- Sección: Tratamientos Faciales -->
+    <section id="faciales" data-aos="fade-up">
+        <h2>Tratamientos Faciales</h2>
+        <img src="img/Captura.png" alt="Tratamientos Faciales">
+        <p>Rejuvenece y revitaliza tu piel con nuestros avanzados tratamientos faciales.</p>
+    </section>
+
+    <!-- Sección: Aparatología -->
+    <section id="aparatologia" data-aos="fade-up">
+        <h2>Aparatología</h2>
+        <img src="img/Captura2.png" alt="Aparatología">
+        <p>Utilizamos tecnología de vanguardia para potenciar los resultados de cada tratamiento.</p>
+    </section>
+
+    <!-- Botón flotante WhatsApp -->
+    <a href="https://wa.me/1234567890" class="whatsapp-button" target="_blank">
+        <img src="img/BOTON-WHATSAPP.webp" alt="WhatsApp">
+    </a>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <script>
+    const menuIcon = document.querySelector('.menu-icon');
+    const navLinks = document.querySelector('.nav-links');
+    menuIcon.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+    });
+    </script>
+</body>
+</html>
