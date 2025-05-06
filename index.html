@@ -7,12 +7,17 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <style>
+        html {
+            scroll-behavior: smooth; /* Desplazamiento suave */
+        }
+    </style>
 </head>
 <body>
 
     <!-- Menú de navegación -->
     <header>
-        <div class="logo">Estética Avanzada</div>
+        <a href="#" class="logo">Estética Avanzada</a>
         <nav>
             <ul class="nav-links">
                 <li><a href="#corporales">Corporales</a></li>
@@ -30,28 +35,33 @@
     <!-- Sección: Tratamientos Corporales -->
     <section id="corporales" data-aos="fade-up">
         <h2>Tratamientos Corporales</h2>
-        <img src="img/Captura3.PNG" alt="Tratamientos Corporales">
+        <img src="./img/Captura3.PNG" alt="Tratamientos Corporales">
         <p>Descubre nuestros tratamientos corporales diseñados para esculpir y tonificar tu cuerpo.</p>
     </section>
 
     <!-- Sección: Tratamientos Faciales -->
     <section id="faciales" data-aos="fade-up">
         <h2>Tratamientos Faciales</h2>
-        <img src="img/Captura.PNG" alt="Tratamientos Faciales">
+        <img src="./img/Captura.PNG" alt="Tratamientos Faciales">
         <p>Rejuvenece y revitaliza tu piel con nuestros avanzados tratamientos faciales.</p>
     </section>
 
     <!-- Sección: Aparatología -->
     <section id="aparatologia" data-aos="fade-up">
         <h2>Aparatología</h2>
-        <img src="img/Captura2.PNG" alt="Aparatología">
+        <img src="./img/Captura2.PNG" alt="Aparatología">
         <p>Utilizamos tecnología de vanguardia para potenciar los resultados de cada tratamiento.</p>
     </section>
 
     <!-- Botón flotante WhatsApp -->
     <a href="https://wa.me/1234567890" class="whatsapp-button" target="_blank">
-        <img src="img/BOTON-WHATSAPP.webp" alt="WhatsApp">
+        <img src="./img/BOTON-WHATSAPP.webp" alt="WhatsApp">
     </a>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 </html>
