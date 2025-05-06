@@ -22,7 +22,7 @@ header {
 .logo {
     font-size: 2rem;
     font-weight: bold;
-    background: linear-gradient(90deg, #8e44ad, #9b59b6);  /* Degradado morado */
+    background: linear-gradient(90deg, #ffffff, #ffffff);  /* Degradado morado */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: transform 0.3s, text-shadow 0.3s;
